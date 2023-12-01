@@ -257,7 +257,7 @@ class FormHandler extends HtmlValue {
 
   static showAllCombinations() {
     const person2 = new FormHandler(
-      "../assets/jacky.png",
+      "assets/jacky.png",
       "Jacky",
       "Jaka",
       "Carson",
@@ -269,7 +269,7 @@ class FormHandler extends HtmlValue {
       "Nasi Padang"
     );
     const person3 = new FormHandler(
-      "../assets/jojon.png",
+      "assets/jojon.png",
       "Jojon",
       "Joni",
       "Joko",
@@ -281,7 +281,7 @@ class FormHandler extends HtmlValue {
       "Mie Instan"
     );
     const person4 = new FormHandler(
-      "../assets/jana.png",
+      "assets/jana.png",
       "Jana",
       "Jana",
       "Lang",
@@ -293,7 +293,7 @@ class FormHandler extends HtmlValue {
       "Mie Instan"
     );
     const person5 = new FormHandler(
-      "../assets/jaka.png",
+      "assets/jaka.png",
       "Jaka",
       "Joko",
       "Jeki",
@@ -305,7 +305,7 @@ class FormHandler extends HtmlValue {
       "Pizza"
     );
     const person6 = new FormHandler(
-      "../assets/lala.png",
+      "assets/lala.png",
       "Lala",
       "Lala",
       "Jenkins",
@@ -317,7 +317,7 @@ class FormHandler extends HtmlValue {
       "Sushi"
     );
     const person7 = new FormHandler(
-      "../assets/tyrone.png",
+      "assets/tyrone.png",
       "Tyrone",
       "Tyrone",
       "Jones",
@@ -329,7 +329,7 @@ class FormHandler extends HtmlValue {
       "Steak"
     );
     const person8 = new FormHandler(
-      "../assets/riri.png",
+      "assets/riri.png",
       "Riri",
       "Riri",
       "Altarez",
@@ -341,7 +341,7 @@ class FormHandler extends HtmlValue {
       "Pasta"
     );
     const person9 = new FormHandler(
-      "../assets/ahmed.png",
+      "assets/ahmed.png",
       "Ahmed",
       "Ahmed",
       "Sabeel",
@@ -353,7 +353,7 @@ class FormHandler extends HtmlValue {
       "Burger"
     );
     const person10 = new FormHandler(
-      "../assets/sisi.png",
+      "assets/sisi.png",
       "Sisi",
       "Giska",
       "Sunandar",
@@ -365,7 +365,7 @@ class FormHandler extends HtmlValue {
       "Nasi Goreng"
     );
     const person11 = new FormHandler(
-      "../assets/toto.png",
+      "assets/toto.png",
       "Toto",
       "Yanto",
       "Subejo",
@@ -377,7 +377,7 @@ class FormHandler extends HtmlValue {
       "Sate"
     );
     const person12 = new FormHandler(
-      "../assets/caitlin.png",
+      "assets/caitlin.png",
       "Caitlin",
       "Caitlin",
       "Snow",
@@ -389,7 +389,7 @@ class FormHandler extends HtmlValue {
       "Es Krim"
     );
     const person13 = new FormHandler(
-      "../assets/will.png",
+      "assets/will.png",
       "Will",
       "William",
       "Rogers",
@@ -401,7 +401,7 @@ class FormHandler extends HtmlValue {
       "Spaghetti"
     );
     const person14 = new FormHandler(
-      "../assets/nana.png",
+      "assets/nana.png",
       "Nana",
       "Gina",
       "Shabita",
@@ -413,7 +413,7 @@ class FormHandler extends HtmlValue {
       "Nasi Padang"
     );
     const person15 = new FormHandler(
-      "../assets/kiki.png",
+      "assets/kiki.png",
       "Kiki",
       "Rizki",
       "Saputra",
