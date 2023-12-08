@@ -1,4 +1,3 @@
-
 class HtmlValue {
   constructor() {
     this.nickName = document.getElementById("nickName").value;
@@ -13,7 +12,32 @@ class HtmlValue {
   }
 }
 
-class FormHandler extends HtmlValue {
+class personDatas {
+  constructor(
+    nickName,
+    firstName,
+    lastName,
+    age,
+    gender,
+    hobby,
+    movie,
+    pet,
+    food
+  ) {
+    this.nickName = nickName;
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.age = age;
+    this.gender = gender;
+    this.hobby = hobby;
+    this.movie = movie;
+    this.pet = pet;
+    this.food = food;
+  }
+}
+
+class FormHandler extends personDatas {
+  #photo
   constructor(
     photo,
     nickName,
@@ -26,17 +50,25 @@ class FormHandler extends HtmlValue {
     pet,
     food
   ) {
-    super();
-    this.photo = photo;
-    this.nickName = nickName;
-    this.firstName = firstName;
-    this.lastName = lastName;
-    this.age = age;
-    this.gender = gender;
-    this.hobby = hobby;
-    this.movie = movie;
-    this.pet = pet;
-    this.food = food;
+    super(nickName,
+      firstName,
+      lastName,
+      age,
+      gender,
+      hobby,
+      movie,
+      pet,
+      food);
+    this.#photo = photo;
+  }
+
+
+  getPhoto(){
+    return this.#photo;
+  }
+
+  setPhotoPerson() {
+    this.#photo = value;
   }
 
   static createPersonFromForm() {
@@ -249,7 +281,7 @@ class FormHandler extends HtmlValue {
     if (equalPairs.length > 0) {
       // FormHandler.addPersonContainer(equalPairs);
       FormHandler.generateGrid(equalPairs);
-      console.log(equalPairs);
+      
     } else {
       resultText.style.display = "block";
     }
@@ -448,7 +480,6 @@ class FormHandler extends HtmlValue {
     const resultText = document.querySelector(".resultsText")
     resultText.style.display = "none"
     FormHandler.generateAllGrid(people);
-    console.log(people);
   }
 
   static comparePersonProperties(person1, person2, properties) {
@@ -478,9 +509,10 @@ class FormHandler extends HtmlValue {
 
     people.forEach((person) => {
       const gridItem = document.createElement("div");
+      const personPhoto = person.getPhoto();
       gridItem.classList.add("grid-item");
       gridItem.innerHTML += `
-        <div class="personPhoto"><img src="${person.photo}" alt="img" ></>
+        <div class="personPhoto"><img src="${personPhoto}" alt="img" ></>
         <div class="personNickname">${person.nickName}, ${person.age}</div>
       `;
       gridItem.style.display = "grid"
@@ -501,9 +533,10 @@ class FormHandler extends HtmlValue {
 
     equalPairs.forEach((pair) => {
       const gridItem = document.createElement("div");
+      const personPhoto = pair.person2.getPhoto();
       gridItem.classList.add("grid-item");
       gridItem.innerHTML += `
-        <div class="personPhoto"><img src="${pair.person2.photo}" alt="img"></>
+        <div class="personPhoto"><img src="${personPhoto}" alt="img"></>
         <div class="personNickname">${pair.person2.nickName}, ${pair.person2.age}</div>
       `;
       gridItem.style.display = "grid";
@@ -521,9 +554,7 @@ class FormHandler extends HtmlValue {
   static detailPerson(person) {
     const personOverlay = document.querySelector(".detailOverlay"); 
     const personInformation = document.querySelector(".detailPerson");
-    
-    console.log(personOverlay);
-
+    const personPhoto = person.getPhoto();
     personInformation.innerHTML = `<div class="personTop">
         <div class="personFront">
             <span class="close" id="close">&times;</span>
@@ -531,7 +562,7 @@ class FormHandler extends HtmlValue {
                 <tr>
                     <tr>
                         <td class="personPhoto">
-                        <img src="${person.photo}" alt="pic">
+                        <img src="${personPhoto}" alt="pic">
                         </td>
                     </tr>
                     <tr>
