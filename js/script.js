@@ -74,7 +74,7 @@ class FormHandler extends personDatas {
   static createPersonFromForm() {
     const person1 = new HtmlValue();
     const person2 = new FormHandler(
-      "../assets/jacky.png",
+      "./assets/jacky.png",
       "Jacky",
       "Jaka",
       "Carson",
@@ -86,7 +86,7 @@ class FormHandler extends personDatas {
       "Nasi Padang"
     );
     const person3 = new FormHandler(
-      "../assets/jojon.png",
+      "./assets/jojon.png",
       "Jojon",
       "Joni",
       "Joko",
@@ -98,7 +98,7 @@ class FormHandler extends personDatas {
       "Mie Instan"
     );
     const person4 = new FormHandler(
-      "../assets/jana.png",
+      "./assets/jana.png",
       "Jana",
       "Jana",
       "Lang",
@@ -110,7 +110,7 @@ class FormHandler extends personDatas {
       "Mie Instan"
     );
     const person5 = new FormHandler(
-      "../assets/jaka.png",
+      "./assets/jaka.png",
       "Jaka",
       "Joko",
       "Jeki",
@@ -122,7 +122,7 @@ class FormHandler extends personDatas {
       "Pizza"
     );
     const person6 = new FormHandler(
-      "../assets/lala.png",
+      "./assets/lala.png",
       "Lala",
       "Lala",
       "Jenkins",
@@ -134,7 +134,7 @@ class FormHandler extends personDatas {
       "Sushi"
     );
     const person7 = new FormHandler(
-      "../assets/tyrone.png",
+      "./assets/tyrone.png",
       "Tyrone",
       "Tyrone",
       "Jones",
@@ -146,7 +146,7 @@ class FormHandler extends personDatas {
       "Steak"
     );
     const person8 = new FormHandler(
-      "../assets/riri.png",
+      "./assets/riri.png",
       "Riri",
       "Riri",
       "Altarez",
@@ -158,7 +158,7 @@ class FormHandler extends personDatas {
       "Pasta"
     );
     const person9 = new FormHandler(
-      "../assets/ahmed.png",
+      "./assets/ahmed.png",
       "Ahmed",
       "Ahmed",
       "Sabeel",
@@ -170,7 +170,7 @@ class FormHandler extends personDatas {
       "Burger"
     );
     const person10 = new FormHandler(
-      "../assets/sisi.png",
+      "./assets/sisi.png",
       "Sisi",
       "Giska",
       "Sunandar",
@@ -182,7 +182,7 @@ class FormHandler extends personDatas {
       "Nasi Goreng"
     );
     const person11 = new FormHandler(
-      "../assets/toto.png",
+      "./assets/toto.png",
       "Toto",
       "Yanto",
       "Subejo",
@@ -194,7 +194,7 @@ class FormHandler extends personDatas {
       "Sate"
     );
     const person12 = new FormHandler(
-      "../assets/caitlin.png",
+      "./assets/caitlin.png",
       "Caitlin",
       "Caitlin",
       "Snow",
@@ -206,7 +206,7 @@ class FormHandler extends personDatas {
       "Es Krim"
     );
     const person13 = new FormHandler(
-      "../assets/will.png",
+      "./assets/will.png",
       "Will",
       "William",
       "Rogers",
@@ -218,7 +218,7 @@ class FormHandler extends personDatas {
       "Spaghetti"
     );
     const person14 = new FormHandler(
-      "../assets/nana.png",
+      "./assets/nana.png",
       "Nana",
       "Gina",
       "Shabita",
@@ -289,7 +289,7 @@ class FormHandler extends personDatas {
 
   static showAllCombinations() {
     const person2 = new FormHandler(
-      "../assets/jacky.png",
+      "./assets/jacky.png",
       "Jacky",
       "Jaka",
       "Carson",
@@ -301,7 +301,7 @@ class FormHandler extends personDatas {
       "Nasi Padang"
     );
     const person3 = new FormHandler(
-      "../assets/jojon.png",
+      "./assets/jojon.png",
       "Jojon",
       "Joni",
       "Joko",
@@ -313,7 +313,7 @@ class FormHandler extends personDatas {
       "Mie Instan"
     );
     const person4 = new FormHandler(
-      "../assets/jana.png",
+      "./assets/jana.png",
       "Jana",
       "Jana",
       "Lang",
@@ -325,7 +325,7 @@ class FormHandler extends personDatas {
       "Mie Instan"
     );
     const person5 = new FormHandler(
-      "../assets/jaka.png",
+      "./assets/jaka.png",
       "Jaka",
       "Joko",
       "Jeki",
@@ -337,7 +337,7 @@ class FormHandler extends personDatas {
       "Pizza"
     );
     const person6 = new FormHandler(
-      "../assets/lala.png",
+      "./assets/lala.png",
       "Lala",
       "Lala",
       "Jenkins",
@@ -349,7 +349,7 @@ class FormHandler extends personDatas {
       "Sushi"
     );
     const person7 = new FormHandler(
-      "../assets/tyrone.png",
+      "./assets/tyrone.png",
       "Tyrone",
       "Tyrone",
       "Jones",
@@ -361,7 +361,7 @@ class FormHandler extends personDatas {
       "Steak"
     );
     const person8 = new FormHandler(
-      "../assets/riri.png",
+      "./assets/riri.png",
       "Riri",
       "Riri",
       "Altarez",
@@ -373,7 +373,7 @@ class FormHandler extends personDatas {
       "Pasta"
     );
     const person9 = new FormHandler(
-      "../assets/ahmed.png",
+      "./assets/ahmed.png",
       "Ahmed",
       "Ahmed",
       "Sabeel",
@@ -385,7 +385,7 @@ class FormHandler extends personDatas {
       "Burger"
     );
     const person10 = new FormHandler(
-      "../assets/sisi.png",
+      "./assets/sisi.png",
       "Sisi",
       "Giska",
       "Sunandar",
@@ -397,7 +397,7 @@ class FormHandler extends personDatas {
       "Nasi Goreng"
     );
     const person11 = new FormHandler(
-      "../assets/toto.png",
+      "./assets/toto.png",
       "Toto",
       "Yanto",
       "Subejo",
@@ -409,7 +409,7 @@ class FormHandler extends personDatas {
       "Sate"
     );
     const person12 = new FormHandler(
-      "../assets/caitlin.png",
+      "./assets/caitlin.png",
       "Caitlin",
       "Caitlin",
       "Snow",
@@ -421,7 +421,7 @@ class FormHandler extends personDatas {
       "Es Krim"
     );
     const person13 = new FormHandler(
-      "../assets/will.png",
+      "./assets/will.png",
       "Will",
       "William",
       "Rogers",
@@ -433,7 +433,7 @@ class FormHandler extends personDatas {
       "Spaghetti"
     );
     const person14 = new FormHandler(
-      "../assets/nana.png",
+      "./assets/nana.png",
       "Nana",
       "Gina",
       "Shabita",
@@ -445,7 +445,7 @@ class FormHandler extends personDatas {
       "Nasi Padang"
     );
     const person15 = new FormHandler(
-      "../assets/kiki.png",
+      "./assets/kiki.png",
       "Kiki",
       "Rizki",
       "Saputra",
