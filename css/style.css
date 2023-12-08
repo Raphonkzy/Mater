@@ -326,6 +326,9 @@ label {
     display: flex;
     flex-direction: column;
   }
+  h1 {
+    text-align: center;
+  }
   .content {
     width: 100%;
     .formUser {
